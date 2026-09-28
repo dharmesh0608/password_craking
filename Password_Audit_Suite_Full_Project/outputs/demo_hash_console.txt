@@ -1,0 +1,5 @@
+{
+  "format": "sha512-crypt",
+  "salted": true,
+  "input_redacted": true
+}

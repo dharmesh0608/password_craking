@@ -1,0 +1,4 @@
+# Synthetic fixture. These are demonstration strings, not real credential data.
+demo:$6$labSalt$illustrativeOnly:20000:0:99999:7:::
+locked:!:20000:0:99999:7:::
+legacy:$1$labSalt$illustrativeOnly:20000:0:99999:7:::

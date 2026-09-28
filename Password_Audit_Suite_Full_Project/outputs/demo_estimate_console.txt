@@ -1,0 +1,5 @@
+{
+  "search_space": 218340105584896,
+  "average_seconds": 109170052792.448,
+  "assumption": "Uniform random password; fixed illustrative rate, no rate limiting."
+}

@@ -1,0 +1,46 @@
+Report saved: outputs/audit_report.json
+{
+  "scope": "Synthetic, disposable lab samples only",
+  "sample_count": 4,
+  "weak_count": 2,
+  "results": [
+    {
+      "label": "sample_a",
+      "length": 11,
+      "rating": "weak",
+      "reasons": [
+        "fewer than 12 characters",
+        "limited character variety",
+        "contains a common password"
+      ]
+    },
+    {
+      "label": "sample_b",
+      "length": 17,
+      "rating": "stronger",
+      "reasons": []
+    },
+    {
+      "label": "sample_c",
+      "length": 6,
+      "rating": "weak",
+      "reasons": [
+        "fewer than 12 characters",
+        "limited character variety",
+        "contains a common password"
+      ]
+    },
+    {
+      "label": "sample_d",
+      "length": 24,
+      "rating": "stronger",
+      "reasons": []
+    }
+  ],
+  "recommendations": [
+    "Use long unique passwords and a password manager",
+    "Require MFA for important accounts",
+    "Rate limit online sign-in attempts",
+    "Store passwords with salted adaptive hashes such as Argon2id"
+  ]
+}

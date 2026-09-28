@@ -1,0 +1,6 @@
+{
+  "attempts": 3,
+  "matched": true,
+  "candidate": "demo123",
+  "mode": "local SHA-256 teaching demo"
+}
